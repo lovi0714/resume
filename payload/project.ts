@@ -28,6 +28,7 @@ const project: IProject.Payload = {
             },
           ],
         },
+        { content: '프로젝트 주소', href: 'https://github.com/lovi0714/final-project' },
       ],
     },
     {
@@ -40,6 +41,7 @@ const project: IProject.Payload = {
         { content: '깃 플로우를 통한 협업 (develop, feature, release, master, hotfix)' },
         { content: 'redis로 session 관리 코드 작성' },
         { content: 'lucy-filter를 활용한 XSS 방어 코드 작성' },
+        { content: '프로젝트 주소', href: 'https://github.com/boardStudy/BoardStudy' },
       ],
     },
   ],
