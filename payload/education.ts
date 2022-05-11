@@ -4,7 +4,6 @@ const education: IEducation.Payload = {
   disable: false,
 
   list: [
-    
     {
       title: '경기대학교',
       subTitle: '레저스포츠 전공',
@@ -17,7 +16,6 @@ const education: IEducation.Payload = {
       startedAt: '2010-03',
       endedAt: '2013-02',
     },
-  
   ],
 };
 

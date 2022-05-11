@@ -34,10 +34,9 @@ const profile: IProfile.Payload = {
       link: 'https://velog.io/@lovi0714',
       icon: faBlogger,
     },
-
   ],
   notice: {
-    title: "안녕하세요. 반갑습니다! 😀",
+    title: '안녕하세요. 반갑습니다! 😀',
     icon: faBell,
   },
 };

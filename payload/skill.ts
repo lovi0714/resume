@@ -28,7 +28,7 @@ const database: ISkill.Skill = {
     {
       title: 'myBatis',
       level: 2,
-    }
+    },
   ],
 };
 
