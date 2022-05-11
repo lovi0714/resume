@@ -32,7 +32,7 @@ const profile: IProfile.Payload = {
     {
       title: 'https://velog.io/@lovi0714',
       link: 'https://velog.io/@lovi0714',
-      icon: faBlogger,
+      icon: faBlog,
     },
   ],
   notice: {
