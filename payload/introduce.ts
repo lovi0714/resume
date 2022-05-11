@@ -5,12 +5,17 @@ const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer massa magna, feugiat commodo arcu sed, sagittis sollicitudin tortor. Nullam diam ex, interdum nec lacus vel, ultrices pretium sapien. Proin bibendum non nibh eu aliquet. In sit amet arcu sed nisi tincidunt ultricies. Fusce magna tellus, egestas at pretium quis, rutrum et ante. Phasellus efficitur lectus felis, sed lacinia enim rhoncus ut. Sed id mi vitae neque aliquet porttitor. Fusce dignissim ipsum urna, at finibus lectus sodales ut. Nulla ut purus vestibulum, dapibus tellus consequat, porttitor purus. Nunc egestas tortor ut vehicula mollis.',
-    'Integer ut libero eu libero mattis rutrum at at urna. Integer non turpis ante. Suspendisse vestibulum odio id libero facilisis gravida. In ipsum est, pellentesque vestibulum tortor eu, bibendum imperdiet metus. Quisque ornare eget ex ut congue. Nam vel finibus sem. Phasellus id neque nibh. Nullam turpis velit, pharetra vitae mi non, bibendum maximus urna.',
+   '안녕하십니까! 입사지원자 이호인입니다.',
+   '저는 체육을 전공했습니다. 졸업 후 진로를 고민하던 중 자신이 노력한 만큼 대우를 받을 수 있다는 개발자의 이야기를 듣고 관심이 생겨 도전하게 되었습니다.',
+   '처음엔 코뮤니티라는 까페에서 진행하는 2주 자바 과정, 노마드 코더의 자바스크립트 과정을 직접 해보면서 적성에 맞는지 확인했습니다.', 
+   '생각보다 옳고 그름이 명확한 것이 매력적이었고 생각처럼 안 풀려서 답답하면서도 밤새가며 하는 스스로의 모습에 더 도전해보고 싶어졌습니다.',
+   '쌍용 교육센터에서 6개월 간 교육을 들으며 기본적인 java, jsp, oracle, spring 등을 배웠고 총 4번의 프로젝트를 경험했습니다.',
+   '프로젝트를 진행하면서 에러 해결하는 과정과 해결했을 때 성취감이 좋았습니다. 또 관련 없는 전공이지만 운동했던 경험이 잘 안 풀리더라도 남들보다 더 열심히 할 수 있었던 것 같고, 팀 단위 협업이 중요한 특성상 저에게 잘 맞았던 것 같습니다.',
+   '교육센터 수료 후에는 조금 더 욕심이 생겨 멘토가 있는 스터디를 통해 코드 리뷰를 받으며 공부 중입니다. 언어도 중요하지만 컴퓨터 기본 지식과 네트워크 지식 등의 필요성을 느껴 공부하고 있고, 국비 과정 수료할 땐 기능 구현에 급급했지만 이번엔 꼭 선택의 이유를 찾아 정리해두려고 노력하고 있습니다.',
   ],
-  sign: 'Love poem',
+  sign: 'Lee Hoin',
   // sign: packageJson.author.name,
-  // latestUpdated: '2019-07-24',
+  // latestUpdated: '2022-05-11',
   latestUpdated: lastestUpdatedAt,
 };
 

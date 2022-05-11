@@ -4,28 +4,12 @@ const backend: ISkill.Skill = {
   category: 'Back-end',
   items: [
     {
-      title: 'Node.js',
-      level: 3,
-    },
-    {
-      title: 'AWS',
-      level: 3,
-    },
-    {
-      title: 'PHP',
+      title: 'Java',
       level: 2,
     },
     {
-      title: 'Java',
-      level: 1,
-    },
-    {
-      title: 'Python',
-      level: 1,
-    },
-    {
-      title: 'C/C++',
-      level: 1,
+      title: 'Spring',
+      level: 2,
     },
   ],
 };
@@ -35,20 +19,16 @@ const database: ISkill.Skill = {
   items: [
     {
       title: 'MySQL',
-      level: 3,
+      level: 2,
     },
     {
       title: 'Oracle',
       level: 2,
     },
     {
-      title: 'Redis',
+      title: 'myBatis',
       level: 2,
-    },
-    {
-      title: 'MongoDB',
-      level: 1,
-    },
+    }
   ],
 };
 
@@ -56,16 +36,8 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'Next.js',
-      level: 2,
-    },
-    {
-      title: 'React.js',
-      level: 2,
-    },
-    {
       title: 'javascript',
-      level: 2,
+      level: 1,
     },
     {
       title: 'HTML/CSS',
@@ -78,22 +50,22 @@ const etc: ISkill.Skill = {
   category: 'Etc',
   items: [
     {
-      title: 'Ubuntu',
+      title: 'Slack',
     },
     {
-      title: 'Vim',
+      title: 'IntelliJ',
     },
     {
-      title: 'Security',
+      title: 'Eclipse',
     },
     {
       title: 'VS Code',
     },
     {
-      title: 'Jira',
+      title: 'redis',
     },
     {
-      title: 'Confluence',
+      title: 'Jenkins',
     },
   ],
 };
