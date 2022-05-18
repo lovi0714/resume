@@ -31,10 +31,13 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
+      title: 'HTML/CSS',
+    },
+    {
       title: 'javascript',
     },
     {
-      title: 'HTML/CSS',
+      title: 'Jquery',
     },
   ],
 };
@@ -55,10 +58,10 @@ const etc: ISkill.Skill = {
       title: 'VS Code',
     },
     {
-      title: 'redis',
+      title: 'Jenkins',
     },
     {
-      title: 'Jenkins',
+      title: 'Git / Github',
     },
   ],
 };
