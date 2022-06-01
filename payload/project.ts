@@ -40,11 +40,16 @@ const project: IProject.Payload = {
         { content: 'CI/CD 구축을 통한 자동화, 슬랙을 통한 모니터링' },
         { content: '깃 플로우를 통한 협업 (develop, feature, release, master, hotfix)' },
         { content: '게시판 CRUD, 조회수, 새 글 표시, 글 개수 선택, 페이지네이션 등 구현' },
-        { content: '작성한 글에 댓글 등록 시 이메일 알람 기능 구현' },
         { content: '서버 병렬 증설에 대한 대안으로 redis로 session 관리 코드 작성' },
         { content: 'lucy-filter를 활용한 XSS 방어 코드 작성' },
         { content: '댓글 기능 구현하면서 REST API 경험, JSON에 대한 XSS 방어코드 작성 추가' },
-        { content: '프로젝트 주소', href: 'https://github.com/boardStudy/BoardStudy' },
+        {
+          content:
+            '작성한 글에 댓글 등록 시 이메일 알람 기능 구현, 알람 서비스 API를 따로 작성하면서 API 통신 경험',
+        },
+        { content: 'API 문서 자동화를 위해 Swagger 적용' },
+        { content: '점차 모놀릭스 구조에서 마이크로 서비스 아키텍쳐로 점진적 전환 중' },
+        { content: '프로젝트 주소', href: 'https://github.com/boardStudy' },
       ],
     },
   ],
