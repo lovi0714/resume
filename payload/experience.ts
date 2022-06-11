@@ -10,7 +10,17 @@ const experience: IExperience.Payload = {
       startedAt: '2021-11',
       endedAt: '2022-04',
       descriptions: ['자바 기반 AWS 클라우드 활용 Full-Stack 개발자 양성 과정 수료'],
-      skillKeywords: ['Java', 'ORACLE', 'JSP', 'Spring', 'myBatis'],
+      skillKeywords: [
+        'Java',
+        'ORACLE',
+        'JSP',
+        'Spring',
+        'myBatis',
+        'html',
+        'css',
+        'javascript',
+        'jquery',
+      ],
     },
   ],
 };
