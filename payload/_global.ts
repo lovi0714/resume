@@ -2,7 +2,7 @@ import favicon from '../asset/favicon.ico';
 import previewImage from '../asset/preview.jpg';
 import { IGlobal } from '../component/common/IGlobal';
 
-const title = '잘 부탁드립니다!';
+const title = '이호인 이력서';
 const description = 'This is a simple web resume sample.';
 
 export const _global: IGlobal.Payload = {

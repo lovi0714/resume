@@ -32,11 +32,12 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'BoardStudy',
+      title: '사이드 프로젝트',
       startedAt: '2022-04',
-      where: '개인적으로 공부한 것을 적용하는 프로젝트입니다.',
+      where: '수료 후 멘토링을 받으며 게시판 다시 만들기',
       descriptions: [
         { content: '스프링 부트를 활용한 게시판 만들기' },
+        { content: '코드 리뷰를 통해 더 나은 코드로 발전' },
         { content: 'CI/CD 구축을 통한 자동화, 슬랙을 통한 모니터링' },
         { content: '깃 플로우를 통한 협업 (develop, feature, release, master, hotfix)' },
         { content: 'local, dev, real 환경으로 나누어 개발' },
