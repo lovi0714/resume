@@ -48,7 +48,7 @@ const project: IProject.Payload = {
         { content: '현재 서비스 별 api 분리 중 ' },
         { content: '완료 : 알람 서비스 , 진행 중 : 계정 , 게시판 서비스 등' },
         { content: 'API 문서 자동화를 위해 Swagger 적용' },
-        { content: '프로젝트 주소', href: 'https://github.com/boardStudy' },
+        { content: '프로젝트 주소', href: 'https://github.com/boardStudy/BoardStudy' },
       ],
     },
   ],
