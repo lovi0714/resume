@@ -34,7 +34,8 @@ const project: IProject.Payload = {
     {
       title: '사이드 프로젝트',
       startedAt: '2022-04',
-      where: '수료 후 멘토링을 받으며 게시판 다시 만들기',
+      endedAt: '2022-10',
+      where: '스프링 스터디',
       descriptions: [
         { content: '스프링 부트를 활용한 게시판 만들기' },
         { content: '코드 리뷰를 통해 더 나은 코드로 발전' },

@@ -46,6 +46,9 @@ const etc: ISkill.Skill = {
   category: 'Etc',
   items: [
     {
+      title: 'Linux',
+    },
+    {
       title: 'Slack',
     },
     {
@@ -56,9 +59,6 @@ const etc: ISkill.Skill = {
     },
     {
       title: 'VS Code',
-    },
-    {
-      title: 'Jenkins',
     },
     {
       title: 'Git / Github',

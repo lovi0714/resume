@@ -5,6 +5,13 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
+      title: '와이즈넛',
+      position: '기술지원팀',
+      startedAt: '2022-10',
+      descriptions: ['검색엔진 SF-1 유지/관리 업무'],
+      skillKeywords: ['Linux', 'JSP', 'Java', 'ORACLE', 'MYSQL', 'html', 'css', 'javascript'],
+    },
+    {
       title: '쌍용교육센터',
       position: '교육생',
       startedAt: '2021-11',
