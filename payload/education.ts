@@ -16,6 +16,12 @@ const education: IEducation.Payload = {
       startedAt: '2010-03',
       endedAt: '2013-02',
     },
+    {
+      title: '쌍용교육센터',
+      subTitle: '자바 기반 AWS 클라우드 활용 Full-Stack 개발자 양성 과정 수료',
+      startedAt: '2021-11',
+      endedAt: '2022-04',
+    },
   ],
 };
 
