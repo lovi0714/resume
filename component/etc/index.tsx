@@ -13,7 +13,7 @@ type Item = IEtc.Item;
 
 export const Etc = {
   Component: ({ payload }: PropsWithChildren<{ payload: Payload }>) => {
-    return PreProcessingComponent<IEtc.Payload>({
+    return PreProcessingComponent<Payload>({
       payload,
       component: Component,
     });
@@ -21,17 +21,33 @@ export const Etc = {
 };
 
 function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
+  const certifications = payload.list.filter((item) => item.category === 'CERTIFICATION');
+  const trainings = payload.list.filter((item) => item.category === 'TRAINING');
+
   return (
-    <CommonSection title="ETC">
-      <EducationRow payload={payload} />
+    <>
+      <Section title="CERTIFICATION" items={certifications} />
+      <Section title="TRAINING" items={trainings} />
+    </>
+  );
+}
+
+function Section({ title, items }: { title: string; items: Item[] }) {
+  if (!items.length) {
+    return <></>;
+  }
+
+  return (
+    <CommonSection title={title}>
+      <ItemRows items={items} />
     </CommonSection>
   );
 }
 
-function EducationRow({ payload }: PropsWithChildren<{ payload: Payload }>) {
+function ItemRows({ items }: { items: Item[] }) {
   return (
     <EmptyRowCol>
-      {payload.list.map((item, index) => {
+      {items.map((item, index) => {
         return <CommonRows key={index.toString()} payload={serialize(item)} index={index} />;
       })}
     </EmptyRowCol>
@@ -58,7 +74,8 @@ function serialize(item: Item): IRow.Payload {
       title,
     },
     right: {
-      ...item,
+      title: item.title,
+      subTitle: item.subTitle,
     },
   };
 }

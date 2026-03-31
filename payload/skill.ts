@@ -7,7 +7,10 @@ const backend: ISkill.Skill = {
       title: 'Java',
     },
     {
-      title: 'Spring',
+      title: 'Spring Boot',
+    },
+    {
+      title: 'MyBatis',
     },
   ],
 };
@@ -21,54 +24,36 @@ const database: ISkill.Skill = {
     {
       title: 'Oracle',
     },
-    {
-      title: 'myBatis',
-    },
   ],
 };
 
-const frontend: ISkill.Skill = {
-  category: 'Front-end',
+const devops: ISkill.Skill = {
+  category: 'DevOps',
   items: [
     {
-      title: 'HTML/CSS',
+      title: 'Docker Compose',
     },
     {
-      title: 'javascript',
+      title: 'Jenkins',
     },
-    {
-      title: 'Jquery',
-    },
-  ],
-};
-
-const etc: ISkill.Skill = {
-  category: 'Etc',
-  items: [
     {
       title: 'Linux',
     },
+  ],
+};
+
+const tools: ISkill.Skill = {
+  category: 'Tools',
+  items: [
     {
-      title: 'Slack',
-    },
-    {
-      title: 'IntelliJ',
-    },
-    {
-      title: 'Eclipse',
-    },
-    {
-      title: 'VS Code',
-    },
-    {
-      title: 'Git / Github',
+      title: 'Git',
     },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, frontend, etc],
+  skills: [backend, database, devops, tools],
 };
 
 export default skill;
