@@ -1,6 +1,5 @@
 import { CSSProperties } from 'react';
 
-/** Style 추론을 위하여.. */
 type TStyleKey =
   | 'blue'
   | 'gray'
@@ -45,9 +44,7 @@ export const Style: Record<TStyleKey, CSSProperties> = {
     height: '80px',
   },
 
-  footer: {
-    // paddingTop: '10px',
-  },
+  footer: {},
 
   skillKeywordBadge: {
     fontWeight: 400,
